@@ -3,7 +3,7 @@ import { Context } from '../context/userContext/context';
 import { Link, NavLink } from 'react-router-dom';
 import { RiHome4Line, RiUserLine, RiLogoutBoxLine, RiSearchLine } from 'react-icons/ri';
 import { FaInfoCircle, FaSignInAlt, FaUserPlus , FaSearch} from 'react-icons/fa';
-import './AppBar.css';
+import './Appbar.css';
 import RateMoviePage from '../pages/RateMoviePage';
 import SearchPage from '../pages/SearchPage';
 
