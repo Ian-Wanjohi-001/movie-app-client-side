@@ -70,6 +70,7 @@ const RegisterForm = () => {
           )}
         </div>
         </div>
+      //register button
         <button type="submit">Register</button>
       </form>
       <p className="redirect-message">
