@@ -1,0 +1,90 @@
+/* .search-page {
+  padding: 20px;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.search-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.search-movie-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.search-card-synopsis {
+  margin-bottom: 10px;
+}
+
+.search-synopsis-title {
+  font-size: 16px;
+}
+
+.search-synopsis-divider {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 10px 0;
+}
+
+.search-synopsis {
+  font-size: 14px;
+}
+
+.search-cast,
+.search-crew,
+.search-release-date,
+.search-runtime {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.search-rate-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4285f4;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.search-rate-btn:hover {
+  background-color: #3367d6;
+}
+
+.no-results-message {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+  color: #f00;
+} */

@@ -1,0 +1,99 @@
+.review-form {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 40px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  border: 2px solid;
+}
+
+.form-field {
+  margin-bottom: 20px;
+}
+
+.wrap {
+  display: flex;
+  gap: 10px;
+}
+
+.user-id,
+.rating {
+  width: 50%;
+}
+
+.field-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.field-icon {
+  margin-right: 5px;
+}
+
+.text-input,
+.text-area,
+.number-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.view-reviews-button {
+  margin-top: 20px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.view-reviews-button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.view-reviews-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.styled-button {
+  background: blue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.styled-link {
+  color: white;
+  text-decoration: none;
+}

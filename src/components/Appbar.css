@@ -1,0 +1,81 @@
+.app-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #2bab0d;
+    /* background-image: url(../assets/clapper-board-152088_1280.png); */
+    background-size: cover;
+    background-position: center;
+    color: #6c05b1;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+  }
+  .marquee-title {
+    white-space: nowrap;
+    color: #b2ff00;
+    
+  }
+  
+  
+  .company-name {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+   
+  }
+  
+  .nav-links {
+    display: flex;
+  }
+  
+  .nav-links a {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .nav-links a.active {
+    background-color: #fff;
+    color: #fff;
+  }
+  
+  .nav-links a:hover {
+    background-color: #b2ff00;
+    color: white;
+  }
+  
+  .nav-links a svg {
+    margin-right: 5px;
+  }
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .search-bar button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff5722;
+    color: #ffffff;
+  }
+  

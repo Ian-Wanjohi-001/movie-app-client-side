@@ -1,0 +1,21 @@
+.Loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   margin-top: -20px;
+    width: 100vw;
+    background-color: whitesmoke;
+}
+
+.loading-img {
+    height: 70vh;
+   margin-left: ;
+
+}
+
+.loading-title {
+font-weight: bolder;
+text-shadow: 4px 4px 4px black;
+color: greenyellow;
+margin-left: ;
+}

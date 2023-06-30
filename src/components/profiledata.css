@@ -1,0 +1,59 @@
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  margin-right: 20px;
+}
+
+.avatar-icon {
+  font-size: 48px;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.username {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.user-details {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.detail-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.info-icon {
+  margin-right: 5px;
+}
+
+.email {
+  margin-left: 5px;
+}
+
+.userid {
+  font-size: 14px;
+  margin: 0;
+  color: #888;
+}
+
+.userid span {
+  font-weight: bold;
+}

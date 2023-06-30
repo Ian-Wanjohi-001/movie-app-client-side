@@ -1,0 +1,106 @@
+.login-form {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 40px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  border: 2px solid;
+}
+
+.form-field {
+  margin-bottom: 20px;
+}
+
+.wrap {
+  display: flex;
+  gap: 10px;
+}
+
+.user-id,
+.rating {
+  width: 50%;
+}
+
+.field-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.field-icon {
+  margin-right: 5px;
+}
+
+.text-input,
+.text-area,
+.number-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Additional Styles */
+.login-form label {
+  color: #333;
+}
+
+.login-form input[type='text'],
+.login-form input[type='number'],
+.login-form input[type='password'] {
+  transition: border-color 0.3s ease-in-out;
+}
+
+.login-form input[type='text']:focus,
+.login-form input[type='number']:focus,
+.login-form input[type='password']:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.login-form .error-message {
+  margin-top: 5px;
+}
+
+.login-form .submit-button {
+  margin-top: 20px;
+}
+
+.login-form .submit-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.styled-button {
+  background: blue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.styled-link {
+  color: white;
+  text-decoration: none;
+}
