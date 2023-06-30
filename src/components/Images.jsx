@@ -3,7 +3,7 @@ import TheDarkKnight from '../assets/TheDarnKnight.jpg';
 import PulpFiction from '../assets/pulpfiction.jpg';
 import TheShawshankRedemption1 from '../assets/fightclub.jpg';
 import FightClub from '../assets/theshawshankredemption.jpg';
-import TheGodfather from '../assets/TheGodFather.jpg';
+import TheGodfather from '../assets/TheGodfather.jpg'
 import TheMatrix from '../assets/thematrix.jpg';
 import ForrestGump from '../assets/forestgump.jpg';
 import Goodfellas from '../assets/thegodfather(ii).jpg';
