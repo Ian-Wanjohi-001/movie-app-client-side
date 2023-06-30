@@ -69,10 +69,6 @@ const RegisterForm = () => {
             <p className="error-message">{errors.confirmPassword.message}</p>
           )}
         </div>
-        <div className="form-field">
-          {errors.moviePreference && (
-            <p className="error-message">{errors.moviePreference.message}</p>
-          )}
         </div>
         <button type="submit">Register</button>
       </form>
