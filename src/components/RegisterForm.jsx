@@ -10,6 +10,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 
+
 const RegisterForm = () => {
   const validationSchema = Yup.object().shape({
     username: Yup.string().required('Username is required'),
@@ -67,11 +68,6 @@ const RegisterForm = () => {
           <input type="password" {...register('confirmPassword')} placeholder="Confirm Password" />
           {errors.confirmPassword && (
             <p className="error-message">{errors.confirmPassword.message}</p>
-          )}
-        </div>
-        <div className="form-field">
-          {errors.moviePreference && (
-            <p className="error-message">{errors.moviePreference.message}</p>
           )}
         </div>
         <button type="submit">Register</button>
