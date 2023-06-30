@@ -7,7 +7,7 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import * as Yup from 'yup';
 import { RiUserFill, RiLockPasswordFill, RiMailFill } from 'react-icons/ri';
 import { Link } from 'react-router-dom';
-import './LoginForm.css';
+import './loginform.css';
 
 const validationSchema = Yup.object().shape({
   username: Yup.string().required('Username is required'),
