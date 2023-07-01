@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import AppBar from "../components/Appbar";
+import Appbar from "../components/Appbar";
 import Footer from "../components/Appfooter";
 import "./Home.css";
 import { movieImageNames } from "../components/Images";
@@ -51,7 +51,7 @@ const Home = () => {
   };
   return (
     <div>
-      <AppBar />
+      <Appbar />
       {
         mappedMovieData.length === 0 ? (
           <LoadingData loadingThing="Loading Movies For You ..."/>
