@@ -1,6 +1,6 @@
-import { useContext, useState, useNavigate } from 'react';
+import { useContext, useState} from 'react';
 import { Context } from '../context/userContext/context';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink, useNavigate  } from 'react-router-dom';
 import { RiHome4Line, RiUserLine, RiLogoutBoxLine, RiSearchLine } from 'react-icons/ri';
 import { FaInfoCircle, FaSignInAlt, FaUserPlus , FaSearch} from 'react-icons/fa';
 import './Appbar.css';

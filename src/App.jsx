@@ -1,4 +1,4 @@
-import { Route, Routes, Link } from 'react-router-dom';
+import { Route, Routes, Link, Navigate  } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Login from './pages/Login';
@@ -10,7 +10,7 @@ import TheatersPage from './pages/TheatersPage';
 import RateMoviePage from './pages/RateMoviePage';
 import SearchPage from './pages/SearchPage';
 import YourReviewsPage from './pages/YourReviewsPage';
-import { useContext, useNavigate } from 'react';
+import { useContext} from 'react';
 import { Context } from './context/userContext/context';
 
 import './App.css'
@@ -18,7 +18,7 @@ import './App.css'
 function App() {
 
   const {user} = useContext(Context);
-const navigate = useNavigate();
+
 
   return (
     <div>
