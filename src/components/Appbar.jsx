@@ -22,7 +22,7 @@ const AppBar = () => {
 
   const handleLogout = () => {
     dispatch({ type: 'LOGOUT' });
-    navigate('/')
+    navigate("/");
   };
 
   const handleSearch = () => {
