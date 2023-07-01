@@ -18,21 +18,22 @@ const RegisterForm = () => {
     confirmPassword: Yup.string()
       .oneOf([Yup.ref('password'), null], 'Passwords must match')
       .required('Confirm Password is required'),
-    moviePreference: Yup.string().required('Movie Preference is required'),
   });
 
   const {
     register,
     handleSubmit,
     formState: { errors },
+    getValues,
   } = useForm({
     resolver: yupResolver(validationSchema),
   });
 
   const onSubmit = (data) => {
-    console.log(data);
+    const { confirmPassword, ...requestData } = data; // Exclude confirmPassword from the request data
+    console.log(requestData);
     axios
-      .post('https://moviereccomendationapi.azurewebsites.net/auth/register', data)
+      .post('https://moviereccomendationapi.azurewebsites.net/auth/register', requestData)
       .then((response) => {
         response.data.message && toast.success(response.data.message);
         console.log(response);
