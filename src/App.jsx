@@ -10,10 +10,15 @@ import TheatersPage from './pages/TheatersPage';
 import RateMoviePage from './pages/RateMoviePage';
 import SearchPage from './pages/SearchPage';
 import YourReviewsPage from './pages/YourReviewsPage';
+import { useContext, useNavigate } from 'react';
+import { Context } from './context/userContext/context';
+
 import './App.css'
 
 function App() {
 
+  const {user} = useContext(Context);
+const navigate = useNavigate();
 
   return (
     <div>
@@ -27,7 +32,7 @@ function App() {
         <Route path="*" element={<NotFound/>} />
         <Route path="/rate-movie" element={<RateMoviePage/>} />
         <Route path="/search" element={<SearchPage/>} />
-        <Route path='/yourReviewsPage' element={<YourReviewsPage />}/>
+        <Route path='/yourReviewsPage' element={user ? <YourReviewsPage /> : <Navigate to="/login" replace />}/>
      </Routes>
      
     </div>

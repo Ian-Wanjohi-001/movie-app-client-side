@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect, useContext } from "react";
 import { Context } from "../context/userContext/context";
+import Appbar from "../components/Appbar";
 import "./yourreviewspage.css";
 
 function YourReviewsPage() {
@@ -70,7 +71,8 @@ function YourReviewsPage() {
     }
   };
 
-  return (
+  return (<>
+  <Appbar />
     <div className="your-reviews-container">
       <h1 className="your-reviews-heading">Your Reviews</h1>
       <div className="table-container">
@@ -103,6 +105,10 @@ function YourReviewsPage() {
         </table>
       </div>
     </div>
+    <div style={{margin:'20px 200px 200px 20px ', fontSize:'25px', fontFamily:'sans-serif'}}> 
+      Create a new <Link className='lInk' to="/rate-movie" >Review</Link>
+    </div>
+    </>
   );
 }
 

@@ -1,4 +1,4 @@
-import { useContext, useState } from 'react';
+import { useContext, useState, useNavigate } from 'react';
 import { Context } from '../context/userContext/context';
 import { Link, NavLink } from 'react-router-dom';
 import { RiHome4Line, RiUserLine, RiLogoutBoxLine, RiSearchLine } from 'react-icons/ri';
@@ -10,6 +10,8 @@ import SearchPage from '../pages/SearchPage';
 
 
 const AppBar = () => {
+
+  const navigate = useNavigate();
   const { user, dispatch } = useContext(Context);
   const [searchTerm, setSearchTerm] = useState('');
   const [showSearchPage, setShowSearchPage] = useState(false)
@@ -20,6 +22,7 @@ const AppBar = () => {
 
   const handleLogout = () => {
     dispatch({ type: 'LOGOUT' });
+    navigate('/')
   };
 
   const handleSearch = () => {

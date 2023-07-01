@@ -4,6 +4,16 @@
   padding: 40px;
 }
 
+.lInk {
+  color: red;
+font-size: 21px;
+}
+
+.lInk:hover {
+  color: blue;
+  text-decoration: none;
+}
+
 .your-reviews-heading {
   text-align: center;
   font-size: 24px;
