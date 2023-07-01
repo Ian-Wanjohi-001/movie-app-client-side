@@ -106,7 +106,7 @@ function YourReviewsPage() {
         </table>
       </div>
     </div>
-    <div style={{margin:'20px 200px 200px 20px ', fontSize:'25px', fontFamily:'sans-serif'}}> 
+    <div style={{margin:'20px 0px 200px 20px ', fontSize:'25px', fontFamily:'sans-serif'}}> 
       Create a new <Link className='lInk' to="/rate-movie" >Review</Link>
     </div>
     </>
